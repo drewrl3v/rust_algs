@@ -24,5 +24,5 @@ mdbook and mdbook-katex versions needed to run this book:
 ## Serving The Book:
 
 You can serve the book by running the following command in the `book` directory
-	
+
 		mdbook serve
