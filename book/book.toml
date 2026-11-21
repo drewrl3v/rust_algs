@@ -1,0 +1,7 @@
+[book]
+title = "Data Structures and Algorithms in Rust"
+authors = ["drewrl3v"]
+language = "en"
+
+[preprocessor.katex]
+after = ["links"]   
