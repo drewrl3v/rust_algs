@@ -109,10 +109,27 @@ to get 120.
 </details>
 
 
-
-
-`Time to point out some Rust obscurities`: When you `return` something in rust, you don't need 
+`TODO:` `Time to point out some Rust obscurities`: When you `return` something in rust, you don't need 
 to explicitly write `return` you can just write the value that is returned.
+
+<details>
+<summary>Solution 4</summary>
+
+`TODO:` Introduce a pattern matching example.
+
+```rust
+fn factorial(n: usize) -> usize {
+	match n {
+		0 => 1,
+		_ => n * factorial(n-1),
+	}
+}
+
+println!("{}", factorial(5));
+```
+</details>
+
+
 
 
 
